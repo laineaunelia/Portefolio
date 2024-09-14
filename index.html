@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carte de visite numérique - Portefolio pour alternance développeur web.">
+  <title>Portefolio Laîné Aunélia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- tête -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- À propos -->
+   <section>
+    <h1>Aunélia Laîné</h1>
+    <h2>Alternant Développeur Web</h2>
+    <h3>04/11/1994<br>29 ans<br>Nationalité Française</h3>
+    </section>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis un développeur web passionné avec une expertise en [technologies]...</p>
+  </section>
+
+  <!-- Compétences -->
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+     <li> Base solide dans le langage HTML/CSS</li>
+     <li>Possède les bases en Python/Javascript/PHP/</li>
+     <li>A déjà utilisé Django - GIT - SQL - MariaDB </li>
+     </ul>
+
+     <h2>Compétences</h2>
+     <ul>
+        <li>A de l’intérêt pour l'intelligence artificielle</li>
+        <li>Excellente culture générale</li>
+        <li>Curieuse, extravertie, débrouillarde</li>
+    </ul>
+  </section>
+
+  <!-- Portfolio/Expériences -->
+
+  <section id="portfolio">
+    <h2>Portfolio / Expériences</h2>
+    <div class="portfolio-item">
+      <h3>Projet 1</h3>
+      <p>Description du projet...</p>
+      <a href="https://github.com/ton-github/projet-1" target="_blank">Voir le projet</a>
+    </div>  
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form action="https://formspree.io/f/ton-email" method="POST">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Pied -->
+
+  <footer>
+    <p>Retrouvez-moi sur : 
+      <a href="https://www.linkedin.com/in/aunelia/" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/laineaunelia" target="_blank">GitHub</a>
+    </p>
+    <div id="qrcode"></div> <!-- QR Code sera généré ici -->
+  </footer>
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+
+
+</html>
