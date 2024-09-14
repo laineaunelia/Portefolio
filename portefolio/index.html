@@ -7,6 +7,7 @@
   <meta name="description" content="Carte de visite numérique - Portefolio pour alternance développeur web.">
   <title>Portefolio Laîné Aunélia</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -64,6 +65,43 @@
     </div>  
   </section>
 
+  <section id="carousel">
+    <h2>Mes Réalisations</h2>
+    <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/image/image1.png" class="d-block w-100" alt="Projet 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Projet 1</h5>
+            <p>Description du projet 1.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/image/image2.png" class="d-block w-100" alt="Projet 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Projet 2</h5>
+            <p>Description du projet 2.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/image/image3.png" class="d-block w-100" alt="Projet 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Projet 3</h5>
+            <p>Description du projet 3.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+      </a>
+      <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+      </a>
+    </div>
+  </section>
+  
   <!-- Contact -->
 
   <section id="contact">
@@ -95,6 +133,9 @@
   <!-- JS -->
 
   <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
